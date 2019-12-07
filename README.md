@@ -62,6 +62,7 @@ ERDDAP is a data server that gives you a simple, consistent way to download subs
       ├── 143project_slides_group11.pptx                      # Presentation slides
       └── README.md                                           # Readme files
 
+### (Each folder has a README file to explain its content)
 # Modules/Packages used in the codes:
       import os
       import time
