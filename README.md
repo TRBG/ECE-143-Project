@@ -25,6 +25,7 @@ ERDDAP is a data server that gives you a simple, consistent way to download subs
 ## All the datafiles are stored in a google drive and are accessable using this [link](https://drive.google.com/open?id=1zReO31KMWB2_QQf4wpbK94Cvntt6SRyd)
 
 # Github File/Folder Organization:
+(Each folder has a README file to explain its content)
       .
       ├── Analysis                                            # All the related analysis python codes 
       │    ├── Non_biological                                  # Analysis python codes related to Non_biological variables
