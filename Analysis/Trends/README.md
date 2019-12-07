@@ -8,5 +8,5 @@ This folder contains the python script files that performs temperature trends an
 # Data Needed: 
 
 All the scripts use the datafile: all_data_depth_0_temp_nan_free_coordinates.csv (check the Data Wrangling folder for details on how to acquire this file from the raw data or the main repo README to know how to download it from Google Drive)
-This file is contains  the cleaned data (with no nan temperature data) at depth = 0 (surface measurements).
+This file  contains the cleaned data (with no nan temperature data) at depth = 0 (surface measurements).
 
