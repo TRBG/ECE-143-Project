@@ -27,9 +27,30 @@ ERDDAP is a data server that gives you a simple, consistent way to download subs
 # Github File/Folder Organization:
       .
       ├── Analysis                                            # All the related analysis python codes 
-      │   ├── Non_biological                                  # Analysis python codes related to Non_biological variables
-      │   └── Biological                                      # Analysis python codes related to Biological variables
-      ├── Data_Wrangling                                      # Python code to clean the data 
+      │    ├── Non_biological                                  # Analysis python codes related to Non_biological variables
+      │    │    ├── scatter_nitrate_Oxygen.py
+      │    │    ├── scatter_nitrate_temperature.py
+      │    │    ├── scatter_Oxygen_temperature.py
+      │    │    ├── scatter_pH_Oxygen.py
+      │    │    ├── scatter_pH_temperature.py
+      │    │    ├── scatter_phosphate_Oxygen_depth10.py
+      │    │    ├── scatter_phosphate_Oxygen.py
+      │    │    └── scatter_phosphate_temperature.py
+      │    └── Biological                                      # Analysis python codes related to Biological variables
+      │         ├── Planktons.py                               # Correlation analysis for Planktons and ocean data
+      │         └── jellyfish_measurments_scatter.py           # Correlation analysis for Jellyfish and ocean data
+      ├── Data_Wrangling                                      # Python code to acquire/clean the data 
+      │     ├── Data_Wrangling_Instructions.md 
+      │     ├── Day_night_measurment_step_1.py
+      │     ├── Day_night_measurment_step_2.py
+      │     ├── checking_decades_distributed_properly.py
+      │     ├── data_cleaning.py
+      │     ├── generate_data_depth_0.py
+      │     ├── read_jellyfish_data.py
+      │     ├── read_ocean_data.py
+      │     ├── reading_wod_data_script.py
+      │     └── splitting_by_decade.py
+      │
       ├── ProjectVisualization.ipynb                          # Jupiter notebook file for all the plots in the presentation
       ├── 143project_slides_group11.pptx                      # Presentation slides
       └── README.md                                           # Readme files
