@@ -26,12 +26,12 @@ ERDDAP is a data server that gives you a simple, consistent way to download subs
 
 # Github File/Folder Organization:
       .
-      ├── Analysis                    # All the related analysis python codes 
-      │   ├── Non_biological          # Analysis python codes related to Non_biological variables
-      │   └── Biological              # Analysis python codes related to Biological variables
+      ├── Analysis                                            # All the related analysis python codes 
+      │   ├── Non_biological                                  # Analysis python codes related to Non_biological variables
+      │   └── Biological                                      # Analysis python codes related to Biological variables
       │            
-      ├── ProjectVisualization.ipynb  #Jupiter notebook file for all the plots in the presentation
-      ├── Slides 
-      └── README.md
+      ├── ProjectVisualization.ipynb                          # Jupiter notebook file for all the plots in the presentation
+      ├── 143project_slides_group11.pptx                      # Presentation slides
+      └── README.md                                           # Readme files
 
 
