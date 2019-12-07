@@ -4,6 +4,7 @@
 To go through the process of scraping the data from the OSD reports/casts,
 Follow the following steps:
 - Download the files Data_1.csv, Data_2.csv, ..., Data_16.csv from the Google Drive (check the main README file of the repo)
+- Make sure you use the scripts below to read the data. The csv files mentioned above are not regular csv files. They conatin WOD reports/casts and are not tabular data seperated by commas.
 - Run the script: reading_wod_data_script.py, then
 - Run the script: data_cleaning.py, then
 - Run the script: splitting_by_decade.py, then
