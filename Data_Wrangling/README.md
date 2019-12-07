@@ -21,4 +21,4 @@ Follow the following steps:
 - Run the script: splitting_by_decade_biological.py.
 
 ## Jellyfish Data:
-To acquire the Jellyfish data run the script: 
+To acquire the Jellyfish data run the script: read_jellyfish_data.py
