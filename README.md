@@ -36,9 +36,16 @@ ERDDAP is a data server that gives you a simple, consistent way to download subs
       │    │    ├── scatter_phosphate_Oxygen_depth10.py
       │    │    ├── scatter_phosphate_Oxygen.py
       │    │    └── scatter_phosphate_temperature.py
-      │    └── Biological                                      # Analysis python codes related to Biological variables
-      │         ├── Planktons.py                               # Correlation analysis for Planktons and ocean data
-      │         └── jellyfish_measurments_scatter.py           # Correlation analysis for Jellyfish and ocean data
+      │    ├── Biological                                      # Analysis python codes related to Biological variables
+      │    |    ├── Planktons.py                               # Correlation analysis for Planktons and ocean data
+      │    |    └── jellyfish_measurments_scatter.py           # Correlation analysis for Jellyfish and ocean data
+      |    |
+      |    └── Trends                                         # Temperature Trends
+      |         ├── trends_analysis_global.py
+      |         ├── trends_analysis_equator_deep_day_deep_night.py
+      |         ├── trends_analysis_north_sea_deep_day.py
+      |         └── trends_analysis_california_equator_deep_day_deep_night.py
+      |
       ├── Data_Wrangling                                      # Python code to acquire/clean the data 
       │     ├── Data_Wrangling_Instructions.md 
       │     ├── Day_night_measurment_step_1.py
