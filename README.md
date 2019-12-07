@@ -56,16 +56,19 @@ ERDDAP is a data server that gives you a simple, consistent way to download subs
       └── README.md                                           # Readme files
 
 # Modules/Packages used in the codes:
-import os
-import time
-import math
-import datetime
-import numpy as np
-import pandas as pd
-import seaborn as sns
-from scipy import stats
-import plotly.express as px
-import matplotlib.pyplot as plt
-from erddapy import ERDDAP
+      import os
+      import time
+      import math
+      import datetime
+      import numpy as np
+      import pandas as pd
+      import seaborn as sns
+      import scipy 
+      import plotly.express as px
+      import matplotlib.pyplot as plt
+      import erddapy 
+      import suntime
+      import csv
+      
 
 
